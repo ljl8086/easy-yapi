@@ -97,12 +97,12 @@ open class DefaultYapiApiHelper : AbstractYapiApiHelper(), YapiApiHelper {
         }
     }
 
-    override fun addCart(privateToken: String, name: String, desc: String): Boolean {
+    override fun addCart(privateToken: String, name: String, desc: String, parentCartId: String?): Boolean {
         val projectId = getProjectIdByToken(privateToken) ?: return false
-        return addCart(projectId, privateToken, name, desc)
+        return addCart(projectId, privateToken, name, desc, parentCartId)
     }
 
-    override fun addCart(projectId: String, token: String, name: String, desc: String): Boolean {
+    override fun addCart(projectId: String, token: String, name: String, desc: String, parentCartId: String?): Boolean {
         try {
             val returnValue = httpClientProvide!!.getHttpClient()
                     .post(yapiSettingsHelper.getServer(false) + ADD_CART)
@@ -111,6 +111,7 @@ open class DefaultYapiApiHelper : AbstractYapiApiHelper(), YapiApiHelper {
                             .set("desc", desc)
                             .set("project_id", projectId)
                             .set("name", name)
+                            .set("parent_id", parentCartId)
                             .set("token", yapiSettingsHelper.rawToken(token)))
                     .call()
                     .use { it.string() }

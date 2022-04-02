@@ -78,21 +78,41 @@ open class AbstractYapiApiExporter {
     protected open fun getCartForFolder(folder: Folder, privateToken: String): CartInfo? {
 
         val name: String = folder.name ?: "anonymous"
+        var childName: String = name
+        var parentCart: CartInfo? = null
 
+        val indexRight = name.indexOf("/")
+        if (indexRight > 0) {
+            val parentName = name.substring(0, indexRight)
+            if (parentName.isNotBlank()) {
+                parentCart = addCartForNetwork(privateToken, parentName, folder.attr, null)
+                childName = name.substring(indexRight+1)
+            }
+        }
+
+        return addCartForNetwork(privateToken, childName, folder.attr, parentCart?.cartId)
+    }
+
+    private fun addCartForNetwork(
+        privateToken: String,
+        cartName: String,
+        cartDesc: String?,
+        parentCartId: String?
+    ): CartInfo? {
         var cartId: String?
 
         //try find existed cart.
         try {
-            cartId = yapiApiHelper!!.findCat(privateToken, name)
+            cartId = yapiApiHelper!!.findCat(privateToken, cartName)
         } catch (e: Exception) {
-            logger!!.traceError("error to find cart [$name]", e)
+            logger!!.traceError("error to find cart [$cartName]", e)
             return null
         }
 
         //create new cart.
         if (cartId == null) {
-            if (yapiApiHelper.addCart(privateToken, name, folder.attr ?: "")) {
-                cartId = yapiApiHelper.findCat(privateToken, name)
+            if (yapiApiHelper.addCart(privateToken, cartName, cartDesc ?: "", parentCartId)) {
+                cartId = yapiApiHelper.findCat(privateToken, cartName)
             } else {
                 //failed
                 return null
@@ -101,7 +121,7 @@ open class AbstractYapiApiExporter {
 
         val cartInfo = CartInfo()
         cartInfo.cartId = cartId
-        cartInfo.cartName = name
+        cartInfo.cartName = cartName
         cartInfo.privateToken = privateToken
 
         return cartInfo

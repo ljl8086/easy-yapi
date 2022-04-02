@@ -15,7 +15,7 @@ plugins {
 }
 
 group 'com.itangcent'
-version '2.3.4.191.0'
+version '2.3.4.192.0'
 
 @SuppressWarnings("GroovyAssignabilityCheck")
 static def majorVersion(version) {
@@ -37,7 +37,7 @@ task patchUpdate {
         def majorVersion = majorVersion(version)
         println "current version:" + majorVersion
         def nextVersion = nextVersion(version)
-        def nextVersionFull = nextVersion + ".191.0"
+        def nextVersionFull = nextVersion + ".192.0"
         println "next version:" + nextVersion
 
         //patch IDEA_CHANGELOG.md

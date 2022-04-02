@@ -117,7 +117,7 @@ internal abstract class YapiApiExporterTest : PluginContextLightCodeInsightFixtu
                     .thenReturn(null, "111111")
                 this.on { it.getProjectIdByToken(eq("token111111")) }
                     .thenReturn("12345")
-                this.on { it.addCart(any(), any(), any()) }
+                this.on { it.addCart(any(), any(), any(), null) }
                     .thenReturn(true)
                 this.on { it.getCartWeb(any(""), any("")) }
                     .thenAnswer {

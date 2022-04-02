@@ -19,9 +19,9 @@ interface YapiApiHelper {
 
     fun saveApiInfo(apiInfo: HashMap<String, Any?>): Boolean
 
-    fun addCart(privateToken: String, name: String, desc: String): Boolean
+    fun addCart(privateToken: String, name: String, desc: String, parentCartId: String?): Boolean
 
-    fun addCart(projectId: String, token: String, name: String, desc: String): Boolean
+    fun addCart(projectId: String, token: String, name: String, desc: String, parentCartId: String?): Boolean
 
     fun findApi(token: String, catId: String, apiName: String): String?
 

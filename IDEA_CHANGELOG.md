@@ -1,276 +1,278 @@
+* 2.3.5
+    * 增加对多层级目录的支持
 * 2.3.4
 
-	* test: add test case for DataEventCollector [(#719)](https://github.com/tangcent/easy-yapi/pull/719)
+    * test: add test case for DataEventCollector [(#719)](https://github.com/tangcent/easy-yapi/pull/719)
 
-	* build: upgrade idea SDK version [(#718)](https://github.com/tangcent/easy-yapi/pull/718)
+    * build: upgrade idea SDK version [(#718)](https://github.com/tangcent/easy-yapi/pull/718)
 
-	* test: add test case for CustomLogConfig [(#717)](https://github.com/tangcent/easy-yapi/pull/717)
+    * test: add test case for CustomLogConfig [(#717)](https://github.com/tangcent/easy-yapi/pull/717)
 
-	* feat: provide rules to customize markdown [(#716)](https://github.com/tangcent/easy-yapi/pull/716)
+    * feat: provide rules to customize markdown [(#716)](https://github.com/tangcent/easy-yapi/pull/716)
 
 * 2.3.3
 
-	* chore: update swagger.config [(#712)](https://github.com/tangcent/easy-yapi/pull/712)
+    * chore: update swagger.config [(#712)](https://github.com/tangcent/easy-yapi/pull/712)
 
-	* fix: resolve mapping annotation for feign client [(#711)](https://github.com/tangcent/easy-yapi/pull/711)
+    * fix: resolve mapping annotation for feign client [(#711)](https://github.com/tangcent/easy-yapi/pull/711)
 
-	* feat: export apis from implements [(#709)](https://github.com/tangcent/easy-yapi/pull/709)
+    * feat: export apis from implements [(#709)](https://github.com/tangcent/easy-yapi/pull/709)
 
-	* feat:  support change log charset by settings [(#708)](https://github.com/tangcent/easy-yapi/pull/708)
+    * feat:  support change log charset by settings [(#708)](https://github.com/tangcent/easy-yapi/pull/708)
 
-	* test: DefaultFileSaveHelperTest [(#707)](https://github.com/tangcent/easy-yapi/pull/707)
+    * test: DefaultFileSaveHelperTest [(#707)](https://github.com/tangcent/easy-yapi/pull/707)
 
 * 2.3.2
 
-	* feat: [generic] auto fix http method [(#697)](https://github.com/tangcent/easy-yapi/pull/697)
+    * feat: [generic] auto fix http method [(#697)](https://github.com/tangcent/easy-yapi/pull/697)
 
-	* feat: generic.spring.demo.config [(#696)](https://github.com/tangcent/easy-yapi/pull/696)
+    * feat: generic.spring.demo.config [(#696)](https://github.com/tangcent/easy-yapi/pull/696)
 
-	* chore: fix warnings [(#695)](https://github.com/tangcent/easy-yapi/pull/695)
+    * chore: fix warnings [(#695)](https://github.com/tangcent/easy-yapi/pull/695)
 
-	* fix: use `any` instead of `forEach` to export api from superMethods [(#694)](https://github.com/tangcent/easy-yapi/pull/694)
+    * fix: use `any` instead of `forEach` to export api from superMethods [(#694)](https://github.com/tangcent/easy-yapi/pull/694)
 
-	* fix: remove usage of  ObjectTypeAdapter.FACTORY [(#693)](https://github.com/tangcent/easy-yapi/pull/693)
+    * fix: remove usage of  ObjectTypeAdapter.FACTORY [(#693)](https://github.com/tangcent/easy-yapi/pull/693)
 
-	* feat: new Action FieldsToProperties [(#686)](https://github.com/tangcent/easy-yapi/pull/686)
+    * feat: new Action FieldsToProperties [(#686)](https://github.com/tangcent/easy-yapi/pull/686)
 
-	* chore: update docs [(#680)](https://github.com/tangcent/easy-yapi/pull/680)
+    * chore: update docs [(#680)](https://github.com/tangcent/easy-yapi/pull/680)
 
 * 2.3.1
 
-	* feat: support @RequestLine、@Headers、@Param、@Body [(#676)](https://github.com/tangcent/easy-yapi/pull/676)
+    * feat: support @RequestLine、@Headers、@Param、@Body [(#676)](https://github.com/tangcent/easy-yapi/pull/676)
 
-	* test: Test case of [DefaultDocParseHelper] [(#675)](https://github.com/tangcent/easy-yapi/pull/675)
+    * test: Test case of [DefaultDocParseHelper] [(#675)](https://github.com/tangcent/easy-yapi/pull/675)
 
-	* feat: try parse api info from super methods [(#674)](https://github.com/tangcent/easy-yapi/pull/674)
+    * feat: try parse api info from super methods [(#674)](https://github.com/tangcent/easy-yapi/pull/674)
 
-	* fix: [json5] remove lead blank lines [(#673)](https://github.com/tangcent/easy-yapi/pull/673)
+    * fix: [json5] remove lead blank lines [(#673)](https://github.com/tangcent/easy-yapi/pull/673)
 
-	* feat: improve Settings UI [(#672)](https://github.com/tangcent/easy-yapi/pull/672)
+    * feat: improve Settings UI [(#672)](https://github.com/tangcent/easy-yapi/pull/672)
 
-	* feat: [recommend] converter of reactivestreams.Publisher [(#667)](https://github.com/tangcent/easy-yapi/pull/667)
+    * feat: [recommend] converter of reactivestreams.Publisher [(#667)](https://github.com/tangcent/easy-yapi/pull/667)
 
-	* chore: update docs [(#665)](https://github.com/tangcent/easy-yapi/pull/665)
+    * chore: update docs [(#665)](https://github.com/tangcent/easy-yapi/pull/665)
 
-	* fix: resolve multi-line root desc as block comments [(#664)](https://github.com/tangcent/easy-yapi/pull/664)
+    * fix: resolve multi-line root desc as block comments [(#664)](https://github.com/tangcent/easy-yapi/pull/664)
 
-	* feat: support custom annotation with Spring-RequestMapping [(#663)](https://github.com/tangcent/easy-yapi/pull/663)
+    * feat: support custom annotation with Spring-RequestMapping [(#663)](https://github.com/tangcent/easy-yapi/pull/663)
 
-	* feat: convert [java.sql.Date]&[java.sql.Time] as java.lang.String [(#662)](https://github.com/tangcent/easy-yapi/pull/662)
+    * feat: convert [java.sql.Date]&[java.sql.Time] as java.lang.String [(#662)](https://github.com/tangcent/easy-yapi/pull/662)
 
 * 2.3.0
 
-	* feat: recommend config for `Jackson-JsonUnwrapped` [(#658)](https://github.com/tangcent/easy-yapi/pull/658)
+    * feat: recommend config for `Jackson-JsonUnwrapped` [(#658)](https://github.com/tangcent/easy-yapi/pull/658)
 
-	* fix: remove redundant table header in markdown [(#654)](https://github.com/tangcent/easy-yapi/pull/654)
+    * fix: remove redundant table header in markdown [(#654)](https://github.com/tangcent/easy-yapi/pull/654)
 
-	* feat: new rule `json.additional.field` [(#652)](https://github.com/tangcent/easy-yapi/pull/652)
+    * feat: new rule `json.additional.field` [(#652)](https://github.com/tangcent/easy-yapi/pull/652)
 
-	* fix: read desc of class before compute by rule [(#649)](https://github.com/tangcent/easy-yapi/pull/649)
+    * fix: read desc of class before compute by rule [(#649)](https://github.com/tangcent/easy-yapi/pull/649)
 
-	* feat: support quarkus [(#648)](https://github.com/tangcent/easy-yapi/pull/648)
+    * feat: support quarkus [(#648)](https://github.com/tangcent/easy-yapi/pull/648)
 
-	* feat: support spring-feign [(#643)](https://github.com/tangcent/easy-yapi/pull/643)
+    * feat: support spring-feign [(#643)](https://github.com/tangcent/easy-yapi/pull/643)
 
-	* feat: support Condition [(#641)](https://github.com/tangcent/easy-yapi/pull/641)
+    * feat: support Condition [(#641)](https://github.com/tangcent/easy-yapi/pull/641)
 
 * 2.2.9
 
-	* fix: fix regex rule [(#620)](https://github.com/tangcent/easy-yapi/pull/620)
+    * fix: fix regex rule [(#620)](https://github.com/tangcent/easy-yapi/pull/620)
 
-	* feat: new event rules [(#616)](https://github.com/tangcent/easy-yapi/pull/616)
+    * feat: new event rules [(#616)](https://github.com/tangcent/easy-yapi/pull/616)
 
-	* feat: [ScriptExecutor] explicit class [(#615)](https://github.com/tangcent/easy-yapi/pull/615)
+    * feat: [ScriptExecutor] explicit class [(#615)](https://github.com/tangcent/easy-yapi/pull/615)
 
-	* feat: mock field of  java_date_types as datetime [(#610)](https://github.com/tangcent/easy-yapi/pull/610)
+    * feat: mock field of  java_date_types as datetime [(#610)](https://github.com/tangcent/easy-yapi/pull/610)
 
-	* feat: support jackson-JsonFormat & spring-DateTimeFormat [(#609)](https://github.com/tangcent/easy-yapi/pull/609)
+    * feat: support jackson-JsonFormat & spring-DateTimeFormat [(#609)](https://github.com/tangcent/easy-yapi/pull/609)
 
 * 2.2.8
 
-	* feat: new rule `field.advanced` [(#605)](https://github.com/tangcent/easy-yapi/pull/605)
+    * feat: new rule `field.advanced` [(#605)](https://github.com/tangcent/easy-yapi/pull/605)
 
-	* fix: resolve Object as {} [(#603)](https://github.com/tangcent/easy-yapi/pull/603)
+    * fix: resolve Object as {} [(#603)](https://github.com/tangcent/easy-yapi/pull/603)
 
-	* chore: fix action text [(#601)](https://github.com/tangcent/easy-yapi/pull/601)
+    * chore: fix action text [(#601)](https://github.com/tangcent/easy-yapi/pull/601)
 
-	* feat: change action groups [(#600)](https://github.com/tangcent/easy-yapi/pull/600)
+    * feat: change action groups [(#600)](https://github.com/tangcent/easy-yapi/pull/600)
 
-	* feat: recommend configs of Jackson JsonNaming(namingStrategy) [(#595)](https://github.com/tangcent/easy-yapi/pull/595)
+    * feat: recommend configs of Jackson JsonNaming(namingStrategy) [(#595)](https://github.com/tangcent/easy-yapi/pull/595)
 
-	* test: add test case of RecommendConfigReader [(#591)](https://github.com/tangcent/easy-yapi/pull/591)
+    * test: add test case of RecommendConfigReader [(#591)](https://github.com/tangcent/easy-yapi/pull/591)
 
-	* test: add test case for ProjectHelperTest [(#589)](https://github.com/tangcent/easy-yapi/pull/589)
+    * test: add test case for ProjectHelperTest [(#589)](https://github.com/tangcent/easy-yapi/pull/589)
 
-	* chore: ignore `*Dialog`&`*Configurable`&`*Action.kt` for codecov [(#588)](https://github.com/tangcent/easy-yapi/pull/588)
+    * chore: ignore `*Dialog`&`*Configurable`&`*Action.kt` for codecov [(#588)](https://github.com/tangcent/easy-yapi/pull/588)
 
-	* chore: ignore `*Dialog`&`*Configurable`&`*Action.kt` for codecov [(#587)](https://github.com/tangcent/easy-yapi/pull/587)
+    * chore: ignore `*Dialog`&`*Configurable`&`*Action.kt` for codecov [(#587)](https://github.com/tangcent/easy-yapi/pull/587)
 
 * 2.2.7
 
-	* feat: `method&field` support  containingClass&defineClass [(#585)](https://github.com/tangcent/easy-yapi/pull/585)
+    * feat: `method&field` support  containingClass&defineClass [(#585)](https://github.com/tangcent/easy-yapi/pull/585)
 
-	* feat: new recommend config to support [not ignore `static final` field] [(#583)](https://github.com/tangcent/easy-yapi/pull/583)
+    * feat: new recommend config to support [not ignore `static final` field] [(#583)](https://github.com/tangcent/easy-yapi/pull/583)
 
-	* fix: apply setting not work [(#582)](https://github.com/tangcent/easy-yapi/pull/582)
+    * fix: apply setting not work [(#582)](https://github.com/tangcent/easy-yapi/pull/582)
 
 * 2.2.6
 
-	* fix: AbstractEasyApiConfigurable checkUI after createComponent [(#579)](https://github.com/tangcent/easy-yapi/pull/579)
+    * fix: AbstractEasyApiConfigurable checkUI after createComponent [(#579)](https://github.com/tangcent/easy-yapi/pull/579)
 
-	* feat: update gui [(#578)](https://github.com/tangcent/easy-yapi/pull/578)
+    * feat: update gui [(#578)](https://github.com/tangcent/easy-yapi/pull/578)
 
-	* fix: [curl] escape [&\] [(#577)](https://github.com/tangcent/easy-yapi/pull/577)
+    * fix: [curl] escape [&\] [(#577)](https://github.com/tangcent/easy-yapi/pull/577)
 
-	* feat: support export apis to specified postman collection [(#575)](https://github.com/tangcent/easy-yapi/pull/575)
+    * feat: support export apis to specified postman collection [(#575)](https://github.com/tangcent/easy-yapi/pull/575)
 
-	* feat: save yapi tokens in project scope [(#572)](https://github.com/tangcent/easy-yapi/pull/572)
+    * feat: save yapi tokens in project scope [(#572)](https://github.com/tangcent/easy-yapi/pull/572)
 
-	* feat: show workspace with type [(#571)](https://github.com/tangcent/easy-yapi/pull/571)
+    * feat: show workspace with type [(#571)](https://github.com/tangcent/easy-yapi/pull/571)
 
-	* feat: support copy curl command from ApiDashBoard(YapiDashBoard) [(#569)](https://github.com/tangcent/easy-yapi/pull/569)
+    * feat: support copy curl command from ApiDashBoard(YapiDashBoard) [(#569)](https://github.com/tangcent/easy-yapi/pull/569)
 
-	* fix: resolve LazilyParsedNumber as Integer [(#568)](https://github.com/tangcent/easy-yapi/pull/568)
+    * fix: resolve LazilyParsedNumber as Integer [(#568)](https://github.com/tangcent/easy-yapi/pull/568)
 
-	* feat: add host to cache in exporting curl command [(#567)](https://github.com/tangcent/easy-yapi/pull/567)
+    * feat: add host to cache in exporting curl command [(#567)](https://github.com/tangcent/easy-yapi/pull/567)
 
-	* feat: select workspace by comboBox [(#566)](https://github.com/tangcent/easy-yapi/pull/566)
+    * feat: select workspace by comboBox [(#566)](https://github.com/tangcent/easy-yapi/pull/566)
 
-	* feat: support export requests as curl command [(#565)](https://github.com/tangcent/easy-yapi/pull/565)
+    * feat: support export requests as curl command [(#565)](https://github.com/tangcent/easy-yapi/pull/565)
 
 * 2.2.5
 
-	* chore: add test case of PostmanApiHelper [(#562)](https://github.com/tangcent/easy-yapi/pull/562)
+    * chore: add test case of PostmanApiHelper [(#562)](https://github.com/tangcent/easy-yapi/pull/562)
 
-	* feat: refactor Task [(#561)](https://github.com/tangcent/easy-yapi/pull/561)
+    * feat: refactor Task [(#561)](https://github.com/tangcent/easy-yapi/pull/561)
 
-	* feat: disable [sync] for the node which is not loaded [(#560)](https://github.com/tangcent/easy-yapi/pull/560)
+    * feat: disable [sync] for the node which is not loaded [(#560)](https://github.com/tangcent/easy-yapi/pull/560)
 
-	* feat: optimize loading of postman collections [(#557)](https://github.com/tangcent/easy-yapi/pull/557)
+    * feat: optimize loading of postman collections [(#557)](https://github.com/tangcent/easy-yapi/pull/557)
 
-	* feat: support export to postman customize workspace [(#524)](https://github.com/tangcent/easy-yapi/pull/524)
+    * feat: support export to postman customize workspace [(#524)](https://github.com/tangcent/easy-yapi/pull/524)
 
-	* feat: add default keyboard-shortcut of ApiCallAction [(#553)](https://github.com/tangcent/easy-yapi/pull/553)
+    * feat: add default keyboard-shortcut of ApiCallAction [(#553)](https://github.com/tangcent/easy-yapi/pull/553)
 
-	* feat: trust [localhost]&[127.0.0.1] by default [(#552)](https://github.com/tangcent/easy-yapi/pull/552)
+    * feat: trust [localhost]&[127.0.0.1] by default [(#552)](https://github.com/tangcent/easy-yapi/pull/552)
 
-	* feat: keep changes in ApiCallDialog [(#551)](https://github.com/tangcent/easy-yapi/pull/551)
+    * feat: keep changes in ApiCallDialog [(#551)](https://github.com/tangcent/easy-yapi/pull/551)
 
-	* feat: populate default value or demo as field value [(#548)](https://github.com/tangcent/easy-yapi/pull/548)
+    * feat: populate default value or demo as field value [(#548)](https://github.com/tangcent/easy-yapi/pull/548)
 
-	* fix: use "" instead of null in format request headers [(#547)](https://github.com/tangcent/easy-yapi/pull/547)
+    * fix: use "" instead of null in format request headers [(#547)](https://github.com/tangcent/easy-yapi/pull/547)
 
 * 2.2.4
 
-	* fix: Ignore SSL certificate in ApacheHttpClient [(#532)](https://github.com/tangcent/easy-yapi/pull/532)
+    * fix: Ignore SSL certificate in ApacheHttpClient [(#532)](https://github.com/tangcent/easy-yapi/pull/532)
 
-	* feat: read default value as param's value [(#541)](https://github.com/tangcent/easy-yapi/pull/541)
+    * feat: read default value as param's value [(#541)](https://github.com/tangcent/easy-yapi/pull/541)
 
-	* fix: MarkdownFormatter#AbstractObjectFormatter [(#536)](https://github.com/tangcent/easy-yapi/pull/536)
+    * fix: MarkdownFormatter#AbstractObjectFormatter [(#536)](https://github.com/tangcent/easy-yapi/pull/536)
 
-	* feat: show error dialog on the active Dialog instead of project [(#533)](https://github.com/tangcent/easy-yapi/pull/533)
+    * feat: show error dialog on the active Dialog instead of project [(#533)](https://github.com/tangcent/easy-yapi/pull/533)
 
-	* feat: bundled markdown render [(#530)](https://github.com/tangcent/easy-yapi/pull/530)
+    * feat: bundled markdown render [(#530)](https://github.com/tangcent/easy-yapi/pull/530)
 
-	* feat: remove recommend config of enum [(#521)](https://github.com/tangcent/easy-yapi/pull/521)
+    * feat: remove recommend config of enum [(#521)](https://github.com/tangcent/easy-yapi/pull/521)
 
 * 2.2.3
   
     * fix: not infer methods that return an interface type [(#518)](https://github.com/tangcent/easy-yapi/pull/518)
       
-	* fix: configure FAIL_ON_EMPTY_BEANS as false [(#517)](https://github.com/tangcent/easy-yapi/pull/517)
+    * fix: configure FAIL_ON_EMPTY_BEANS as false [(#517)](https://github.com/tangcent/easy-yapi/pull/517)
       
-	* perf: add several methods of RequestRuleWrap [(#509)](https://github.com/tangcent/easy-yapi/pull/509)
+    * perf: add several methods of RequestRuleWrap [(#509)](https://github.com/tangcent/easy-yapi/pull/509)
 
-	* opti: remove api name from the prefix of attr [(#508)](https://github.com/tangcent/easy-yapi/pull/508)
+    * opti: remove api name from the prefix of attr [(#508)](https://github.com/tangcent/easy-yapi/pull/508)
 
-	* build: collect feat/opti/perf as enhancements [(#504)](https://github.com/tangcent/easy-yapi/pull/504)
+    * build: collect feat/opti/perf as enhancements [(#504)](https://github.com/tangcent/easy-yapi/pull/504)
 
 * 2.2.2
   
-	* feat: update CachedResourceResolverTest [(#494)](https://github.com/tangcent/easy-yapi/pull/494)
+    * feat: update CachedResourceResolverTest [(#494)](https://github.com/tangcent/easy-yapi/pull/494)
 
-	* chore: update dubbo.config [(#490)](https://github.com/tangcent/easy-yapi/pull/490)
+    * chore: update dubbo.config [(#490)](https://github.com/tangcent/easy-yapi/pull/490)
 
-	* fix: process the body as query if the httpMethod is GET [(#489)](https://github.com/tangcent/easy-yapi/pull/489)
+    * fix: process the body as query if the httpMethod is GET [(#489)](https://github.com/tangcent/easy-yapi/pull/489)
 
-	* feat: support queryExpanded [(#488)](https://github.com/tangcent/easy-yapi/pull/488)
+    * feat: support queryExpanded [(#488)](https://github.com/tangcent/easy-yapi/pull/488)
 
 * 2.2.1
 
-	* feat: double click yapi node in YapiDashboardDialog to open yapi url [(#480)](https://github.com/tangcent/easy-yapi/pull/480)
+    * feat: double click yapi node in YapiDashboardDialog to open yapi url [(#480)](https://github.com/tangcent/easy-yapi/pull/480)
 
-	* feat: support generic export for several actions [(#478)](https://github.com/tangcent/easy-yapi/pull/478)
+    * feat: support generic export for several actions [(#478)](https://github.com/tangcent/easy-yapi/pull/478)
 
-	* opti: trustHostsTextArea scrollable [(#477)](https://github.com/tangcent/easy-yapi/pull/477)
+    * opti: trustHostsTextArea scrollable [(#477)](https://github.com/tangcent/easy-yapi/pull/477)
 
-	* feat: support generic export [(#476)](https://github.com/tangcent/easy-yapi/pull/476)
+    * feat: support generic export [(#476)](https://github.com/tangcent/easy-yapi/pull/476)
 
-	* opti: change some rule type to `Event` [(#473)](https://github.com/tangcent/easy-yapi/pull/473)
+    * opti: change some rule type to `Event` [(#473)](https://github.com/tangcent/easy-yapi/pull/473)
 
-	* opti: close http response stream [(#472)](https://github.com/tangcent/easy-yapi/pull/472)
+    * opti: close http response stream [(#472)](https://github.com/tangcent/easy-yapi/pull/472)
 
-	* fix: resolveCycle in KVKit [(#471)](https://github.com/tangcent/easy-yapi/pull/471)
+    * fix: resolveCycle in KVKit [(#471)](https://github.com/tangcent/easy-yapi/pull/471)
 
-	* feat: always try close http response [(#470)](https://github.com/tangcent/easy-yapi/pull/470)
+    * feat: always try close http response [(#470)](https://github.com/tangcent/easy-yapi/pull/470)
 
-	* feat: remind to use login mode for yapi before 1.6.0 [(#465)](https://github.com/tangcent/easy-yapi/pull/465)
+    * feat: remind to use login mode for yapi before 1.6.0 [(#465)](https://github.com/tangcent/easy-yapi/pull/465)
 
-	* chore: fix release-rc [(#457)](https://github.com/tangcent/easy-yapi/pull/457)
+    * chore: fix release-rc [(#457)](https://github.com/tangcent/easy-yapi/pull/457)
 
-	* fix: compute param type info between PARAM_BEFORE&PARAM_AFTER [(#455)](https://github.com/tangcent/easy-yapi/pull/455)
+    * fix: compute param type info between PARAM_BEFORE&PARAM_AFTER [(#455)](https://github.com/tangcent/easy-yapi/pull/455)
 
-	* feat: it(class) isPrimitive/isPrimitiveWrapper [(#452)](https://github.com/tangcent/easy-yapi/pull/452)
+    * feat: it(class) isPrimitive/isPrimitiveWrapper [(#452)](https://github.com/tangcent/easy-yapi/pull/452)
 
-	* chore: add test case of [ScriptClassContext] [(#449)](https://github.com/tangcent/easy-yapi/pull/449)
+    * chore: add test case of [ScriptClassContext] [(#449)](https://github.com/tangcent/easy-yapi/pull/449)
 
-	* chore: update version of intellij-kotlin to 0.9.9-SNAPSHOT [(#450)](https://github.com/tangcent/easy-yapi/pull/450)
+    * chore: update version of intellij-kotlin to 0.9.9-SNAPSHOT [(#450)](https://github.com/tangcent/easy-yapi/pull/450)
 
-	* chore: add test case of rules [(#447)](https://github.com/tangcent/easy-yapi/pull/447)
+    * chore: add test case of rules [(#447)](https://github.com/tangcent/easy-yapi/pull/447)
 
-	* chore: update test case of [*SettingHelper] [(#444)](https://github.com/tangcent/easy-yapi/pull/444)
+    * chore: update test case of [*SettingHelper] [(#444)](https://github.com/tangcent/easy-yapi/pull/444)
 
-	* chore: add test case of [Settings] [(#443)](https://github.com/tangcent/easy-yapi/pull/443)
+    * chore: add test case of [Settings] [(#443)](https://github.com/tangcent/easy-yapi/pull/443)
 
-	* chore: update HttpSettingsHelperTest [(#442)](https://github.com/tangcent/easy-yapi/pull/442)
+    * chore: update HttpSettingsHelperTest [(#442)](https://github.com/tangcent/easy-yapi/pull/442)
 
-	* feat: forbidden http access to distrust hosts [(#441)](https://github.com/tangcent/easy-yapi/pull/441)
+    * feat: forbidden http access to distrust hosts [(#441)](https://github.com/tangcent/easy-yapi/pull/441)
 
-	* feat: separate RequestBuilderListener from ClassExporter [(#438)](https://github.com/tangcent/easy-yapi/pull/438)
+    * feat: separate RequestBuilderListener from ClassExporter [(#438)](https://github.com/tangcent/easy-yapi/pull/438)
 
-	* chore: remove deprecated usage [(#437)](https://github.com/tangcent/easy-yapi/pull/437)
+    * chore: remove deprecated usage [(#437)](https://github.com/tangcent/easy-yapi/pull/437)
 
-	* fix: always try addMock in parseByJson5 [(#436)](https://github.com/tangcent/easy-yapi/pull/436)
+    * fix: always try addMock in parseByJson5 [(#436)](https://github.com/tangcent/easy-yapi/pull/436)
 
-	* opti: custom ConnectionManager for build httpClient [(#434)](https://github.com/tangcent/easy-yapi/pull/434)
+    * opti: custom ConnectionManager for build httpClient [(#434)](https://github.com/tangcent/easy-yapi/pull/434)
 
 * 2.2.0
 
-	* feat: [methodDoc-yapi] parse params as query for `GET` [(#432)](https://github.com/tangcent/easy-yapi/pull/432)
+    * feat: [methodDoc-yapi] parse params as query for `GET` [(#432)](https://github.com/tangcent/easy-yapi/pull/432)
 
-	* fix: alway split tags with \n [(#431)](https://github.com/tangcent/easy-yapi/pull/431)
+    * fix: alway split tags with \n [(#431)](https://github.com/tangcent/easy-yapi/pull/431)
 
-	* feat: support yapi json5 [(#430)](https://github.com/tangcent/easy-yapi/pull/430)
+    * feat: support yapi json5 [(#430)](https://github.com/tangcent/easy-yapi/pull/430)
 
-	* feat: init dbBeanBinderFactory by lazy [(#426)](https://github.com/tangcent/easy-yapi/pull/426)
+    * feat: init dbBeanBinderFactory by lazy [(#426)](https://github.com/tangcent/easy-yapi/pull/426)
 
-	* opti: add the specified sqlite dependency [(#427)](https://github.com/tangcent/easy-yapi/pull/427)
+    * opti: add the specified sqlite dependency [(#427)](https://github.com/tangcent/easy-yapi/pull/427)
 
-	* feat: init dao by lazy [(#423)](https://github.com/tangcent/easy-yapi/pull/423)
+    * feat: init dao by lazy [(#423)](https://github.com/tangcent/easy-yapi/pull/423)
 
-	* fix: fromJson compatible with the old version [(#422)](https://github.com/tangcent/easy-yapi/pull/422)
+    * fix: fromJson compatible with the old version [(#422)](https://github.com/tangcent/easy-yapi/pull/422)
 
 * 2.1.9
 
-	* fix: DefaultMethodDocHelper#appendDesc [(#406)](https://github.com/tangcent/easy-yapi/pull/406)
+    * fix: DefaultMethodDocHelper#appendDesc [(#406)](https://github.com/tangcent/easy-yapi/pull/406)
 
-	* fix: block recursive call getValue [(#395)](https://github.com/tangcent/easy-yapi/pull/395)
+    * fix: block recursive call getValue [(#395)](https://github.com/tangcent/easy-yapi/pull/395)
 
-	* fix: parse `Header`&`Param` by `ExtensibleKit.fromJson` [(#384)](https://github.com/tangcent/easy-yapi/pull/384)
+    * fix: parse `Header`&`Param` by `ExtensibleKit.fromJson` [(#384)](https://github.com/tangcent/easy-yapi/pull/384)
 
 * 2.1.8
 
-	* fix: use `asKV` instead of `as KV<>` [(#364)](https://github.com/tangcent/easy-yapi/pull/364)
+    * fix: use `asKV` instead of `as KV<>` [(#364)](https://github.com/tangcent/easy-yapi/pull/364)
 
 * 2.1.0~
 

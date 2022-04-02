@@ -473,7 +473,7 @@ class YapiDashboardDialog : AbstractApiDashboardDialog() {
                 )
                 if (cartName.isNullOrBlank()) return@runInSwingUI
 
-                yapiApiHelper.addCart(yapiNodeData.getProjectToken()!!, cartName, "")
+                yapiApiHelper.addCart(yapiNodeData.getProjectToken()!!, cartName, "", null)
 
                 syncYapiNode(yapiNodeData.getRootNodeData())
             }
